@@ -14,12 +14,12 @@ type truck struct {
 }
 
 type bike struct {
-	Model string
+	model string
 	make  string
 }
 
 // Values array for the feedback.json file
-type values struct {
+type Values struct {
 	Models []Model `json:"values"`
 }
 
